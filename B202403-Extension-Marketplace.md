@@ -305,7 +305,7 @@ The **Show Recommended Extensions** command is always available if you want to s
 
 ### Can I trust extensions from the Marketplace?
 
-The Marketplace runs a virus scan on each extension package that's published to ensure its safety. The virus scan is run for each new extension and for each extension update. Until the scan is all clear, the extension won't be published in the Marketplace for public usage.
+The Marketplace runs a virus scan on each extension package that's published to ensure its safety. The virus scan is run for each new extension and for each extension update. Until the scan is all clear, the extension won't be published in the Marketplace for public usage..
 
 The Marketplace also prevents extension authors from name-squatting on official publishers such as Microsoft and RedHat.
 
