@@ -9,7 +9,7 @@ You can adjust the zoom level in VS Code with the View > Appearance > Zoom comma
 - View > Appearance > Zoom Out (Ctrl+-) - decrease the zoom level.
 - View > Appearance > Reset Zoom (Ctrl+Numpad0) - reset the zoom level to 0.
 
- **Note:** If you are using a magnifier, hold down the Alt key while viewing the hover to move the cursor over the hover.
+ **Note:** If you are using a magnifier, hold down the Alt key while viewing the hover to move the cursor over the hover..
 
 ![](https://code.visualstudio.com/assets/docs/editor/accessibility/zoomed-in.png)
 
