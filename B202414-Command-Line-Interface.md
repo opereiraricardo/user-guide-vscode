@@ -128,3 +128,43 @@ You can review the other tunneling commands by running `code tunnel -help`:
 As you may need to run the CLI on a remote machine that can't install VS Code Desktop, the CLI is also available for standalone install on the [VS Code download page](https://code.visualstudio.com/insiders/).
 
 For more information on Remote Tunnels, you can review the [Remote Tunnels documentation](https://code.visualstudio.com/docs/remote/tunnels).
+
+# [Opening VS Code with URLs](https://code.visualstudio.com/docs/editor/command-line#_opening-vs-code-with-urls)
+
+You can also open projects and files using the platform's URL handling mechanism. Use the following URL formats to:
+
+Open a project
+
+```
+vscode://file/{full path to project}/
+
+vscode://file/c:/myProject/
+```
+
+Open a file
+
+```
+vscode://file/{full path to file}
+
+vscode://file/c:/myProject/package.json
+```
+Open a file to line and column
+
+```
+vscode://file/{full path to file}:line:column
+
+vscode://file/c:/myProject/package.json:5:10
+```
+You can use the URL in applications such as browsers or file explorers that can parse and redirect the URL. For example, on Windows, you could pass a `vscode:// `URL directly to the Windows Explorer or to the command line as `start vscode://{full path to file}`.
+
+![Imagem](https://code.visualstudio.com/assets/docs/editor/command-line/vscode-url.png)
+
+> **Note:** If you are using VS Code [Insiders](https://code.visualstudio.com/insiders/) builds, the URL prefix is `vscode-insiders://`.
+
+## [Next steps](https://code.visualstudio.com/docs/editor/command-line#_next-steps)
+
+Read on to find out about:
+
+- [Integrated Terminal](https://code.visualstudio.com/docs/terminal/basics) - Run command-line tools from inside VS Code.
+- [Basic Editing](https://code.visualstudio.com/docs/editor/codebasics) - Learn the basics of the VS Code editor.
+- [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved) - VS Code lets you quickly understand and move through your source code.
