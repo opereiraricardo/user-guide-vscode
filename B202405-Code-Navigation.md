@@ -24,7 +24,7 @@ Breadcrumbs always show the file path and, with the help of language extensions,
 Selecting a breadcrumb in the path displays a dropdown with that level's siblings so you can quickly navigate to other folders and files.
 ![image](https://github.com/omuriloo/exercicio-git-branches/assets/158228238/9b9a736e-d83c-42cc-907e-ca68912d36a2)
 If the current file type has language support for symbols, you will see the current symbol path and a dropdown of other symbols at the same level and below.
-![alt text](image.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/breadcrumbs.png)
 
 You can turn off breadcrumbs with the View > Show Breadcrumbs toggle or with the `breadcrumbs.enabled` [setting](https://code.visualstudio.com/docs/getstarted/settings).
 
@@ -93,7 +93,7 @@ Tip: You can jump to the matching bracket with `Ctrl+Shift+\`
 ## Reference information
 
 Some languages like C# support inline reference information, that is updated live. This allows you to quickly analyze the impact of your edit or the popularity of your specific method or property throughout your project:
-![alt text](image.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/referenceinfo.png)
 
 > Tip: Directly invoke the Peek References action by clicking on these annotations.
 
@@ -101,7 +101,7 @@ Some languages like C# support inline reference information, that is updated liv
 
 ## Rename symbol
 Some languages support rename symbol across files. Press F2 and then type the new desired name and press Enter. All usages of the symbol will be renamed, across files.
-![alt text](image-1.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/rename.png)
 
 ## Errors & warnings
 Warnings or Errors can be generated either via configured tasks, by rich language services, or by linters, that constantly analyze your code in the background. Since we love bug-free code, warnings and errors show up in multiple places:
@@ -109,28 +109,28 @@ Warnings or Errors can be generated either via configured tasks, by rich languag
 * In the Status Bar, there is a summary of all errors and warnings counts.
 * You can click on the summary or press Ctrl+Shift+M to display the PROBLEMS panel with a list of all current errors.
 * If you open a file that has errors or warnings, they will be rendered inline with the text and in the overview ruler.
-![alt text](image-2.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/errors.png)
 > Tip: To loop through errors or warnings in the current file, you can press `F8` or `Shift+F8` which will show an inline zone detailing the problem and possible Code Actions (if available):
 
-![alt text](image-4.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/errorsinline.png)
 ## Code Action
 Warnings and Errors can provide Code Actions (also known as Quick Fixes) to help fix issues. These will be displayed in the editor in the left margin as a lightbulb. Clicking on the lightbulb will either display the Code Action options or perform the action.
 
 ## Inlay Hints
 Some languages provide inlay hints: that is additional information about source code that is rendered inline. This is usually used to show inferred types. The sample below shows inlay hints that display the inferred types of JavaScript variables and function return types.
 
-![alt text](image-5.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/inlay-hints.png)
 
 Inlay hints can be enabled/disabled with the `editor.inlayHints.enabled` setting, the default is enabled. Extensions, like TypeScript or Rust, are needed to provide the actual inlay hint information
 
 ## Outgoing link protection
 For your protection, VS Code displays a prompt before opening an outgoing website link from the editor.
 
-![alt text](image-6.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/outgoing-link-prompt.png)
 
 You can proceed to the external website in your browser or have the options to copy the link or cancel the request. If you choose Configure Trusted Domains, a dropdown lets you trust the exact URL, trust the URL domain and subdomains, or trust all domains to disable outgoing link protection.
 
-![alt text](image-7.png)
+![image](https://code.visualstudio.com/assets/docs/editor/editingevolved/trusted-domain-dropdown.png)
 The option to Manage Trusted Domains, also available at any time from the Command Palette, brings up the Trusted Domains JSON file, where you can add, remove, or modify trusted domains.
 
 ```
